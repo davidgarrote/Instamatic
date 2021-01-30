@@ -12,7 +12,7 @@ Instamatic is a simple but effective python script that controls your browser wi
 5. Open the latest post
 6. Like the post, leave a comment and follow the user
 7. You will be prompted with the total amount of likes, comments and follows of your session
-8. The bot will wait for 2 minutes before repeating the process over again, to avoid being banned instantly.
+8. The bot will wait for 2 minutes before repeating the process over again, in order to avoid being instantly banned.
 
 Requirements
 
