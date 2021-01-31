@@ -54,7 +54,7 @@ class Instabot:
 
             try:
                 print("Alright time to find some posts!")
-                self.driver.get("https://instagram.com/explore/tags/YOURSEARCHKEYWORD/")
+                self.driver.get("https://instagram.com/explore/tags/YOUR_SEARCH_KEYWORD/")
                 sleep(3)
             except:
                 pass
@@ -66,9 +66,9 @@ class Instabot:
                 while self.driver.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div/div[1]/div[1]/a/div[1]/div[2]") is None:
                     while not self.driver.get("https://instagram.com/explore/tags/YOURSEARCHKEYWORD/"):
                         sleep(10)
-                        self.driver.get("https://instagram.com/explore/tags/YOURSEARCHKEYWORD/")
+                        self.driver.get("https://instagram.com/explore/tags/YOUR_SEARCH_KEYWORD/")
                         sleep(5)
-                    self.driver.get("https://instagram.com/explore/tags/YOURSEARCHKEYWORD/")
+                    self.driver.get("https://instagram.com/explore/tags/YOUR_SEARCH_KEYWORD/")
 
                 self.driver.find_element_by_xpath(
                     "/html/body/div[1]/section/main/article/div[2]/div/div[1]/div[1]/a/div[1]/div[2]").click()
@@ -148,6 +148,6 @@ class Instabot:
 
 """Remember to edit this section and the rest on capital letters"""
 
-my_bot = Instabot('YOURUSERNAME', 'YOURPASSWORD')
+my_bot = Instabot('YOUR_USERNAME', 'YOUR_PASSWORD')
 while True:
     my_bot.find_posts('THE COMMENT THAT WILL BE POSTED ON EACH RELATED POST')
