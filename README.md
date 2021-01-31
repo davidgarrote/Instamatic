@@ -23,5 +23,5 @@ Instamatic is a simple but effective python script that controls your browser wi
 
 
 Notes:
-- Due to the high amount of new accounts you'd be following after using [Unfollowgram](https://github.com/davidgarrote/Unfollowgram/) to automate the unfollowing process, replicating the human behaviour.
+- Due to the high amount of new accounts you'd be following after using this script, I recommend using [Unfollowgram](https://github.com/davidgarrote/Unfollowgram/) to automate the unfollowing process, replicating the human behaviour.
 
