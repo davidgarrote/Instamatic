@@ -16,10 +16,10 @@ Instamatic is a simple but effective python script that controls your browser wi
 
 Requirements
 
-Python 3.8+ - https://www.python.org/downloads/
-Selenium - https://www.selenium.dev/downloads/
-ChromeDriver or the selenium driver for your preferred browser - https://www.selenium.dev/documentation/en/webdriver/driver_requirements/
-Read the code and customize it with you credentials and search keywords (everything in capital letters)
+- Python 3.8+ - https://www.python.org/downloads/
+- Selenium - https://www.selenium.dev/downloads/
+- ChromeDriver or the selenium driver for your preferred browser - https://www.selenium.dev/documentation/en/webdriver/driver_requirements/
+- Read the code and customize it with you credentials and search keywords (everything in capital letters)
 
 Notes:
 Due to the high amount of new accounts you'd be following after using this script I recommend using my other script that automates the unfollowing process, replicating the human behaviour.
